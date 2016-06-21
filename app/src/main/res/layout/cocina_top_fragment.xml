@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="125dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cocina_top_fragment"
+    android:layout_gravity="top"
+    tools:context="com.example.taku.homedone.Cocina">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnListaCompra"
+        android:layout_gravity="center_vertical|right"
+        android:src="@drawable/listacompra"
+        android:layout_marginRight="25dp"
+        android:onClick="addToCompraList"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnMenu"
+        android:layout_gravity="center"
+        android:src="@drawable/cacerola"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnHorarios"
+        android:layout_gravity="left|center_vertical"
+        android:src="@drawable/horario"
+        android:layout_marginLeft="20dp"/>
+
+</FrameLayout>
